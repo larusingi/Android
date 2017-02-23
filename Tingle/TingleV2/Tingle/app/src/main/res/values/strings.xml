@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Tingle</string>
+    <string name="headline">Last added</string>
+    <string name="what_thing">What thing </string>
+    <string name="where">Where? </string>
+    <string name="add_button">ADD NEW THING</string>
+    <string name="listHeadline">The textbox will come here</string>
+    </resources>
