@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Rejseplanen</string>
+    <color name="white">#FFFFFF</color>
+    <color name="yellow">#FFEB3B</color>
+    <color name="textyellow">#FFE11A</color>
+    <color name="background">#1F8A70</color>
+    <string name="title_activity_s">s</string>
+    <string name="new_game">new game </string>
+    <string name="help">help</string>
+
+    <!-- for the actionbar -->
+    <string name="add">Add</string>
+    <string name="about">About</string>
+    <string name="exit">Logout</string>
+    <string name="reset">reset</string>
+
+    <!-- for the bank fragment -->
+    <string name="balance"> Balance:</string>
+    <string name="balanceNR"> 150 kr</string>
+
+
+</resources>
