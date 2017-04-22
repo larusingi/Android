@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lalli.rejseplanen">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Rejseplanen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Reg" />
+        <activity android:name=".MainMenu" />
+        <activity
+            android:name="con.s.s"
+            android:label="@string/title_activity_s"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".fragments.BankFragment" />
+        <activity android:name=".fragments.WelomeFragment" />
+        <activity android:name=".fragments.TravelFragment"></activity>
+    </application>
+
+</manifest>
