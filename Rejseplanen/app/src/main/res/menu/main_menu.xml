@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+
+    <item
+        android:id="@+id/mainMenu" android:icon="@android:drawable/ic_menu_revert" app:showAsAction="always" android:title="@string/reset"/>
+    <item
+        android:id="@+id/travel" android:icon="@android:drawable/ic_dialog_info" app:showAsAction="never" android:title="Travel">
+    </item>
+    <item
+    android:id="@+id/profile" android:icon="@android:drawable/ic_dialog_info" app:showAsAction="never" android:title="Profile">
+    </item>
+    <item
+        android:id="@+id/bank" android:icon="@android:drawable/ic_dialog_info" app:showAsAction="never" android:title="Update Balance">
+    </item>
+    <item
+        android:id="@+id/overView" android:icon="@android:drawable/ic_dialog_info" app:showAsAction="never" android:title="Trip overview">
+    </item>
+    <item
+        android:id="@+id/exit"  app:showAsAction="never" android:title="@string/exit">
+    </item>
+</menu>

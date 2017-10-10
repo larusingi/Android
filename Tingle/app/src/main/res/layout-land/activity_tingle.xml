@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+        <fragment
+            android:name="com.bignerdranch.android.tingle.UIFragment"
+            android:id="@+id/frag_container_tingle"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary"
+            android:layout_weight="1"
+            >
+        </fragment>
+        <fragment
+            android:name="com.bignerdranch.android.tingle.ListFragment"
+            android:id="@+id/frag_container_list"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimaryDark"
+            android:layout_weight="1"
+            android:visibility="visible"
+            >
+        </fragment>
+</LinearLayout>
+

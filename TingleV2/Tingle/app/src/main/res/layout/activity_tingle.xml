@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_tingle"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+
+    tools:context="com.bignerdranch.android.tingle.TingleActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+        <!-- Last thing added -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+
+            android:layout_marginBottom="5dp">
+
+
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="@string/headline"/>
+
+            <TextView android:id="@+id/last_thing"
+                      android:layout_width="match_parent"
+                      android:layout_marginLeft="10dp"
+                      android:layout_marginRight="5dp"
+                      android:layout_gravity="center"
+                      android:background="@android:color/white"
+                      android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <!-- What new thing -->
+        <LinearLayout
+
+            android:orientation="horizontal"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/what_thing"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/what_text"
+                android:layout_marginLeft="13dp"
+                android:layout_marginRight="5dp"
+                android:background="@android:color/white"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+        <!-- Where is new thing -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="@string/where"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+            <EditText
+                android:id="@+id/where_text"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="33dp"
+                android:layout_marginRight="5dp"
+                android:background="@android:color/white"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- Button to add new thing-->
+            <Button
+                android:id="@+id/add_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/add_button"
+                android:layout_gravity="center"
+
+                android:background="@android:color/holo_red_light"/>
+            <Button
+                android:id="@+id/listAll_button"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="List all activity"
+                android:padding="10dp"
+                android:layout_gravity="center"
+                android:background="@android:color/holo_blue_dark"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

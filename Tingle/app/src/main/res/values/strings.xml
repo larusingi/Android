@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Tingle</string>
+
+    <string name="headline">last added</string>
+    <string name="what_thing">what thing?</string>
+    <string name="where">where?</string>
+    <string name="add_button">ADD NEW THING</string>
+    <string name="list_all_Things_button">List All Things</string>
+
+    <item type="bool" name="twoPaneMode">true</item>
+
+</resources>

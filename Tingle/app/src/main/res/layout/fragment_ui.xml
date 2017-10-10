@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:background="@android:color/darker_gray">
+    <!-- Last thing added -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="10dp"
+            android:text="@string/headline"
+            android:textStyle="bold"
+            android:layout_weight="3"/>
+
+        <TextView
+            android:id="@+id/last_thing"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:background="@android:color/holo_green_light"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <!-- What new thing -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="10dp"
+            android:text="@string/what_thing"
+            android:textStyle="bold"
+            android:layout_weight="3"/>
+
+        <EditText
+            android:id="@+id/what_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:background="@android:color/white"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <!-- Where is new thing -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="10dp"
+            android:text="@string/where"
+            android:textStyle="bold"
+            android:layout_weight="3"/>
+
+        <EditText
+            android:id="@+id/where_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:background="@android:color/white"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <!-- Button to add new thing-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/add_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_red_light"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:text="@string/add_button"
+            android:layout_weight="1"/>
+
+        <!-- Button to list all things-->
+        <Button
+            android:id="@+id/list_All_Thing_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_red_light"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:text="@string/list_all_Things_button"
+            android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>
